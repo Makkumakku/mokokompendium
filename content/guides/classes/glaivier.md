@@ -76,7 +76,7 @@ builds:
             points: 1
             category: leap
             tier: 1
-          - name: Unleashed power
+          - name: Unleashed Power
             points: 5
             category: leap
             tier: 1
@@ -309,7 +309,7 @@ builds:
             points: 1
             category: leap
             tier: 1
-          - name: Unleashed power
+          - name: Unleashed Power
             points: 5
             category: leap
             tier: 1
@@ -600,7 +600,7 @@ builds:
             points: 1
             category: leap
             tier: 1
-          - name: Unleashed power
+          - name: Unleashed Power
             points: 5
             category: leap
             tier: 1

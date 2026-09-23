@@ -3,17 +3,15 @@ import { getSpecialSkillNames, getSpecialSkillTooltip } from '../utils/special-s
 import { asD1Database, type D1DatabaseLike } from '../utils/d1'
 import { getSkillGroupAliasCandidates } from '../utils/skill-category'
 import { buildLocaleAwareEqualsClause, buildLocalizedSelectSql } from '../utils/tooltip-locale'
+import { buildIconCdnUrl } from '../../app/utils/icon-cdn'
 
-const CDN_PROXY_BASE_URL = '/api/cdn/efui_iconatlas'
 const CACHE_TTL_SECONDS = 60 * 60 * 24 * 7
 const STALE_TTL_SECONDS = 60 * 60 * 24
 const CACHE_CONTROL_HEADER = `public, max-age=${CACHE_TTL_SECONDS}, s-maxage=${CACHE_TTL_SECONDS}, stale-while-revalidate=${STALE_TTL_SECONDS}`
 const DEV_CACHE_CONTROL_HEADER = 'no-store'
 
 function getSkillIconUrl(iconFile: string, iconIndex: number): string {
-  const folder = iconFile.replace(/_\d+$/, '').toLowerCase()
-  const filename = `${iconFile.toLowerCase()}_${iconIndex}.png`
-  return `${CDN_PROXY_BASE_URL}/${folder}/${filename}`
+  return buildIconCdnUrl(iconFile, iconIndex)
 }
 
 type SkillTooltipRow = {

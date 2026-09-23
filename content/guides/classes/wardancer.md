@@ -1616,7 +1616,7 @@ builds:
             tripods:
               - Earth Storm
               - Weak Point Detection
-              - Raging Storms
+              - Raging Storm
             rune: Galewind
             rune_rarity: legendary
             notes: |-
@@ -1764,10 +1764,11 @@ builds:
           - Sky Shattering Blow
           - "Esoteric Skill: Rising Fire Dragon"
           - Lightning Kick
+          - Sky Shattering Blow
           - "Esoteric Skill: Spiral Impact"       
       - name: Undying Fire Dragon (222)
         difficulty: 2
-        description: A fairly different Esoteric Wardancer playstyle that merges the Crit Rate Buff from Roar of Courage to Wind's Whisper. Due to this, we are swapping out Roar of Courage to Energy Combustion solely for utility. This also makes Rising Fire Dragon apply <tripod>Weakness Exposure</tripod> upon hit, which makes a fairly different rotation altogether compared to the other builds.
+        description: A fairly different Esoteric Wardancer playstyle that merges the Crit Rate Buff from Roar of Courage to Wind's Whisper. Due to this, we are swapping out Roar of Courage to Energy Combustion solely for utility.
         arkgrid_cores: Undying Fire Dragon + Fire Dragon Skyshaker + Rising Fire Dragon
         arkgrid_prose: |-
           Prioritize getting both Undying Fire Dragon and Fire Dragon Skyshaker to 17p at the same time, as you need both 17p effects to properly play the setup.

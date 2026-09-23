@@ -209,6 +209,7 @@ builds:
               Before taking Trained Cleave, holding it for only 0.25 seconds will deal full damage. Holding longer will not increase the damage.
               - **Stagger:** TODO units
           - name: Storm's Approach / Akasha's Wave
+            icon: Storm's Approach
             level_label: Awakening / Hyper Awakening
             notes: |-
               This awakening deals a marginal amount of damage but has relatively little animation lock with back-loaded damage. It will apply and refresh the Crit Resistance synergy for the entire duration.
@@ -270,7 +271,7 @@ builds:
           - Can and should be customized depending on whether you have Crit Rate% on bracelet or other source of Crit Rate. Goal is to reach ~95% Crit Rate with as much Evolution damage and Cooldown Reduction as possible.
           - Unlimited Magick can be taken to alleviate mana issues. Get extra Crit Rate from Keen Sense and Master nodes instead.
         arkPassives:
-          - name: Critical
+          - name: Crit
             points: 12
             category: evolution
             tier: 1
@@ -563,6 +564,7 @@ builds:
               Before taking Trained Cleave, holding it for only 0.25 seconds will deal full damage. Holding longer will not increase the damage.
               - **Stagger:** TODO units
           - name: Storm's Approach / Akasha's Wave
+            icon: Storm's Approach
             level_label: Awakening / Hyper Awakening
             notes: |-
               This awakening deals a marginal amount of damage but has relatively little animation lock with back-loaded damage. It will apply and refresh the Crit Resistance synergy for the entire duration.
@@ -624,7 +626,7 @@ builds:
           - Can and should be customized depending on whether you have Crit Rate% on bracelet or other source of Crit Rate. Goal is to reach ~95% Crit Rate with as much Evolution damage and Cooldown Reduction as possible.
           - Unlimited Magick can be taken to alleviate mana issues. Get extra Crit Rate from Keen Sense and Master nodes instead.
         arkPassives:
-          - name: Critical
+          - name: Crit
             points: 12
             category: evolution
             tier: 1
@@ -910,6 +912,7 @@ builds:
               Before taking Trained Cleave, holding it for only 0.25 seconds will deal full damage. Holding longer will not increase the damage.
               - **Stagger:** TODO units
           - name: Storm's Approach / Akasha's Wave
+            icon: Storm's Approach
             level_label: Awakening / Hyper Awakening
             notes: |-
               This awakening deals a marginal amount of damage but has relatively little animation lock with back-loaded damage. It will apply and refresh the Crit Resistance synergy for the entire duration.
@@ -953,7 +956,7 @@ builds:
           - Can and should be customized depending on whether you have Crit Rate% on bracelet or other source of Crit Rate. Goal is to reach ~95% Crit Rate with as much Evolution damage and Cooldown Reduction as possible.
           - Unlimited Magick can be taken to alleviate mana issues. Get extra Crit Rate from Keen Sense and Master nodes instead.
         arkPassives:
-          - name: Critical
+          - name: Crit
             points: 12
             category: evolution
             tier: 1
